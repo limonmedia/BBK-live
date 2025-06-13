@@ -1,0 +1,50 @@
+# Copyright (C) 2021 Lipscore
+# This file is distributed under the GPLv2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lipscore Ratings and Reviews 0.4.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lipscore\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-27T10:37:27+00:00\n"
+"PO-Revision-Date: 2021-05-27 13:00+0200\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Domain: lipscore\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+
+#. Plugin Name of the plugin
+msgid "Lipscore Ratings and Reviews"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://lipscore.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Collecting reviews is difficult. Let the most efficient and flexible plugin "
+"in the world do it for you."
+msgstr ""
+
+#. Author of the plugin
+msgid "Lipscore"
+msgstr ""
+
+#: lipscore.php:304
+msgid "View Lipscore settings"
+msgstr ""
+
+#: lipscore.php:412
+msgid ""
+"lipscore is missing requirements and has been <a href=\"%s\">deactivated</"
+"a>. Please make sure all requirements are available."
+msgstr ""
+
+#: templates/questions_title.php:17
+msgid "Questions"
+msgstr "質問"

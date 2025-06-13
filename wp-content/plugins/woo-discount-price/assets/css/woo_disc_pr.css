@@ -1,0 +1,6 @@
+#woo_discount_email header {
+    display: block;
+    background: url(../image/email_discount_price.png) no-repeat #FFFFFF;
+    background-position: 0px center;
+    padding: 200px;
+}

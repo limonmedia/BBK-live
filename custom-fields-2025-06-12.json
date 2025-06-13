@@ -1,0 +1,135 @@
+[
+    {
+        "key": "group_67c5bc5214594",
+        "title": "Produkt detaljer",
+        "fields": [
+            {
+                "key": "field_67f55790c431d",
+                "label": "Materialer og pleie",
+                "name": "Materiale_og_pleie",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "post_type_67e88d858eabc",
+        "title": "Campaigns",
+        "menu_order": 0,
+        "active": true,
+        "post_type": "campaign",
+        "advanced_configuration": false,
+        "import_source": "",
+        "import_date": "",
+        "labels": {
+            "name": "Campaigns",
+            "singular_name": "Campaign",
+            "menu_name": "campaign",
+            "all_items": "All campaign",
+            "edit_item": "Edit Campaign",
+            "view_item": "Vis Campaign",
+            "view_items": "Vis campaign",
+            "add_new_item": "Legg til ny Campaign",
+            "add_new": "Legg til ny Campaign",
+            "new_item": "Ny Campaign",
+            "parent_item_colon": "Parent Campaign:",
+            "search_items": "Search campaign",
+            "not_found": "No campaign found",
+            "not_found_in_trash": "No campaign found in Trash",
+            "archives": "Campaign Archives",
+            "attributes": "Campaign Attributes",
+            "featured_image": "",
+            "set_featured_image": "",
+            "remove_featured_image": "",
+            "use_featured_image": "",
+            "insert_into_item": "Insert into campaign",
+            "uploaded_to_this_item": "Uploaded to this campaign",
+            "filter_items_list": "Filter campaign list",
+            "filter_by_date": "Filter campaign by date",
+            "items_list_navigation": "campaign list navigation",
+            "items_list": "campaign list",
+            "item_published": "Campaign published.",
+            "item_published_privately": "Campaign published privately.",
+            "item_reverted_to_draft": "Campaign reverted to draft.",
+            "item_scheduled": "Campaign scheduled.",
+            "item_updated": "Campaign updated.",
+            "item_link": "Campaign Link",
+            "item_link_description": "A link to a campaign."
+        },
+        "description": "",
+        "public": true,
+        "hierarchical": false,
+        "exclude_from_search": false,
+        "publicly_queryable": true,
+        "show_ui": true,
+        "show_in_menu": true,
+        "admin_menu_parent": "",
+        "show_in_admin_bar": true,
+        "show_in_nav_menus": true,
+        "show_in_rest": true,
+        "rest_base": "",
+        "rest_namespace": "wp\/v2",
+        "rest_controller_class": "WP_REST_Posts_Controller",
+        "menu_position": "",
+        "menu_icon": {
+            "type": "dashicons",
+            "value": "dashicons-admin-post"
+        },
+        "rename_capabilities": false,
+        "singular_capability_name": "post",
+        "plural_capability_name": "posts",
+        "supports": [
+            "title",
+            "editor",
+            "thumbnail",
+            "custom-fields"
+        ],
+        "taxonomies": "",
+        "has_archive": false,
+        "has_archive_slug": "",
+        "rewrite": {
+            "permalink_rewrite": "post_type_key",
+            "with_front": "1",
+            "feeds": "0",
+            "pages": "1"
+        },
+        "query_var": "post_type_key",
+        "query_var_name": "",
+        "can_export": true,
+        "delete_with_user": false,
+        "register_meta_box_cb": "",
+        "enter_title_here": ""
+    }
+]
